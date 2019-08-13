@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcutrackFulfillment.Infrastructure", "AcutrackFulfillment.Infrastructure\AcutrackFulfillment.Infrastructure.csproj", "{2E6E8DE9-856A-4D38-ACA9-BBB21C88706B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C2AEAFF8-0A91-4444-AE08-0888F6193300}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcutrackFulfillment.FunctionalTests", "Tests\AcutrackFulfillment.FunctionalTests\AcutrackFulfillment.FunctionalTests.csproj", "{801D371B-D941-4C80-84A0-EC1C5AB2B379}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{8D633348-F625-413C-B894-45DC233F6DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcutrackFulfillmentCLI", "AcutrackFulfillmentCLI\AcutrackFulfillmentCLI.csproj", "{6A51F179-D69E-4C66-B750-7C5522143E82}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcutrackFulfillment.Core", "AcutrackFulfillment.Core\AcutrackFulfillment.Core.csproj", "{D3A12826-1116-4496-BDCB-C37A3DE4FEF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcutrackFulfillment.Web", "AcutrackFulfillment.Web\AcutrackFulfillment.Web.csproj", "{125B3FE6-6BCC-4D01-B529-49F36AED4360}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E6E8DE9-856A-4D38-ACA9-BBB21C88706B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6E8DE9-856A-4D38-ACA9-BBB21C88706B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6E8DE9-856A-4D38-ACA9-BBB21C88706B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6E8DE9-856A-4D38-ACA9-BBB21C88706B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{801D371B-D941-4C80-84A0-EC1C5AB2B379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{801D371B-D941-4C80-84A0-EC1C5AB2B379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{801D371B-D941-4C80-84A0-EC1C5AB2B379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{801D371B-D941-4C80-84A0-EC1C5AB2B379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A51F179-D69E-4C66-B750-7C5522143E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A51F179-D69E-4C66-B750-7C5522143E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A51F179-D69E-4C66-B750-7C5522143E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A51F179-D69E-4C66-B750-7C5522143E82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3A12826-1116-4496-BDCB-C37A3DE4FEF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3A12826-1116-4496-BDCB-C37A3DE4FEF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3A12826-1116-4496-BDCB-C37A3DE4FEF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3A12826-1116-4496-BDCB-C37A3DE4FEF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{125B3FE6-6BCC-4D01-B529-49F36AED4360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{125B3FE6-6BCC-4D01-B529-49F36AED4360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{125B3FE6-6BCC-4D01-B529-49F36AED4360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{125B3FE6-6BCC-4D01-B529-49F36AED4360}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E6E8DE9-856A-4D38-ACA9-BBB21C88706B} = {8D633348-F625-413C-B894-45DC233F6DB0}
+		{801D371B-D941-4C80-84A0-EC1C5AB2B379} = {C2AEAFF8-0A91-4444-AE08-0888F6193300}
+		{6A51F179-D69E-4C66-B750-7C5522143E82} = {8D633348-F625-413C-B894-45DC233F6DB0}
+		{D3A12826-1116-4496-BDCB-C37A3DE4FEF3} = {8D633348-F625-413C-B894-45DC233F6DB0}
+		{125B3FE6-6BCC-4D01-B529-49F36AED4360} = {8D633348-F625-413C-B894-45DC233F6DB0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEBC97B5-90F0-44DF-9203-0619DA275BAF}
+	EndGlobalSection
+EndGlobal
