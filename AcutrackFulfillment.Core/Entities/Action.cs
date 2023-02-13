@@ -11,6 +11,7 @@ namespace AcutrackFulfillment.Core.Entities
         public string FieldName { get; set; }
         public int Object_Id { get; set; }
         public bool Enabled { get; set; }
+        public bool IsActive { get; set; }
       
     }
 }
